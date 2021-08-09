@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'beautiful-react-diagrams/styles.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { DragDropContext } from 'react-beautiful-dnd';
+
 
 ReactDOM.render(
   <React.StrictMode>
+  <DragDropContext>
     <App />
+    </DragDropContext>
   </React.StrictMode>,
   document.getElementById('root')
 );
