@@ -13,6 +13,17 @@
   }
 }
 
+.react-flow__node {
+  max-width: 20px;
+  overflow: hidden;
+  transition: max-width 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.react-flow__node:hover {
+  max-width: 160px;
+  /* overflow: hidden; */
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
