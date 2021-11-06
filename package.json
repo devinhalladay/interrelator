@@ -1,48 +1,26 @@
 {
   "name": "interrelator",
-  "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@dnd-kit/core": "^3.1.1",
-    "@dnd-kit/sortable": "^4.0.0",
-    "@dnd-kit/utilities": "^2.0.0",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "add": "^2.0.6",
-    "beautiful-react-diagrams": "^0.5.1",
-    "mathjs": "^9.4.4",
-    "react": "^17.0.2",
-    "react-beautiful-dnd": "^13.1.0",
-    "react-dom": "^17.0.2",
-    "react-flow-renderer": "^9.6.6",
-    "react-lineto": "^3.2.1",
-    "react-scripts": "^4.0.3",
-    "web-vitals": "^1.0.1",
-    "yarn": "^1.22.11"
-  },
   "scripts": {
-    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "next": "12.0.3",
+    "postcss": "^8.3.11",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.43.4",
+    "tailwindcss": "^2.2.19"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@types/node": "16.11.6",
+    "@types/react": "17.0.34",
+    "eslint": "7",
+    "eslint-config-next": "12.0.3",
+    "typescript": "4.4.4"
   }
 }

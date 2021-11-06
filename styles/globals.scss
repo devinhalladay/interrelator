@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow: hidden;
+  background-image: url('/images/tile.png');
+  background-repeat: repeat;
+  background-size: 30px 30px;
+  @apply bg-gray-50;
+}
